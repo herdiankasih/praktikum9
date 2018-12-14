@@ -203,15 +203,21 @@ return 0;
 
 =>> Flowchart latihan2
 
+
 ![flowchartlat2](https://user-images.githubusercontent.com/43899109/50014271-125e2e80-fff6-11e8-98b7-dd24f58a4d67.jpg)
+
 
 =>> Hasil screenshoot program :
 
+
 ![sslatihan2](https://user-images.githubusercontent.com/43899109/50014274-12f6c500-fff6-11e8-8bb7-eb5347a2f40b.png)
+
 
 Latihan3 Mengalikan 2 buah matriks
 
+
 =>> Alur algoritma :
+
 
 ````
 -Mendefinisikan void baca matriks dengan kode :
@@ -292,8 +298,10 @@ cetak_matriks(x,m,n);
 
 -Tampilkan hasil kelayar 
 ````
+
 =>> Kode C++ program :
 
+````
 #include <iostream>
 using namespace std;
 void baca_matriks (int mat[10][10], int baris, int kolom)
@@ -345,15 +353,21 @@ cetak_matriks(x,m,n);
 
 =>> Flowchart latihan 3 :
 
+
 ![flowchartlat3](https://user-images.githubusercontent.com/43899109/50014427-87c9ff00-fff6-11e8-8501-bb3512f190f5.jpg)
+
 
 =>> Hasil screenshoot latihan3 :
 
+
 ![sslatihan3](https://user-images.githubusercontent.com/43899109/50014428-88629580-fff6-11e8-8f94-24680c3b6b33.png)
+
 
 Latihan4 Program untuk menghasilkan suatu transpose suatu matriks
 
+
 =>> Alur algoritma :
+
 
 ````
 -Mendefinisikan int main (int argc, char *argv[]) :
@@ -407,28 +421,23 @@ cout << a[j][i] << " ";
 }
 cout << endl;
 }
-
 -Tampilkan hasil kelayar
 ````
 
 =>> Kode C++ program :
 
+
 ````
 #include <cstdlib>
 #include <iostream>
-
 using namespace std;
-
 int main(int argc, char *argv[])
 {
-
 int a[10][10],m,n,i,j;
 cout<<"Masukkan Jumlah Baris: ";
 cin>>m;
 cout<<"Masukkan Jumlah kolom: ";
 cin>>n;
-
-
 cout<<endl<<"Elemen matriks: "<<endl;
 for(i=0;i<m;i++)
 {
@@ -456,7 +465,6 @@ cout<<a[j][i]<<" ";
 }
 cout<<endl<<endl;
 }
-
 system("PAUSE");
 return EXIT_SUCCESS;
 }
@@ -464,8 +472,12 @@ return EXIT_SUCCESS;
 
 =>> Flowchart latihan4 :
 
+
 ![flowchartlat4](https://user-images.githubusercontent.com/43899109/50014659-1f2f5200-fff7-11e8-84f7-9e04326c2a39.jpg)
+
 
 =>> Hasil screenshoot program :
 
+
 ![sslatihan4](https://user-images.githubusercontent.com/43899109/50014660-1fc7e880-fff7-11e8-94df-46ebaef66e12.png)
+
